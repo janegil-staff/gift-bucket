@@ -1,2 +1,30 @@
-# gift-bucket
-A place where people can give gifts from givers and receive gifts from givers
+# 
+
+## Setup
+
+1. Go to project folder
+
+> cd 
+
+2. Install Dependencies
+
+> npm run setup
+
+3. Create .env with following content
+
+````
+DB_URL=
+
+PORT=3000
+SECRET=AAA
+````
+
+## Run
+
+1. Start Server
+
+> npm start
+
+2. Open in url or using an Endpoint tester (postman)
+
+> http://127.0.0.1:3000/
